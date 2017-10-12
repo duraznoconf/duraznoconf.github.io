@@ -72,6 +72,11 @@ Last change: 27/07/2016
 	.darkblue {
 		background:#182638;
 	}
+
+	.parallax {
+		background:url(../img/hero3.jpg) fixed no-repeat;
+		background-size: cover;
+	}
 	.lightblue {
 		background:#788f9d;
 	}
@@ -662,6 +667,11 @@ Last change: 27/07/2016
 		border-radius: 3px;
 		margin: 0 auto;
 		padding-bottom:4%;
+	}
+
+	.md-content-wide {
+		width:950px;
+		left:-20%;
 	}
 
 	.md-content h3 {
