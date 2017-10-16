@@ -1,29 +1,3 @@
-/* --------------
-
-Theme name: Intent
-Author: Lucid Themes
-Version: 1.0
-Last change: 27/07/2016
-
--------------- */
-
-
-/* ------- RESPONSIVE CSS CONTENTS -------
-
-	- 1) Small Desktop and Tablet Landscape (992px - 1099px)
-
-	- 2) Mobile + Tablet (991px and below)
-
-	- 3) Tablet only (768px - 991px)
-
-	- 4) Mobile only (767px and below)
-
-	- 5) Mobile very small only (310px and below)
-
- ------------------------------------ */
-
-
-
 /* --- 1) Small Desktop and Tablet Landscape --- */
 @media (min-width:992px) and (max-width:1099px) {
 
@@ -65,7 +39,7 @@ Last change: 27/07/2016
 
 		#site-header{width:100%;position:fixed;top:0;z-index:100;}
 
-		.header-inner{background-color:#eeeeee;}
+		.header-inner{background-color:transparent;}
 
 		.medium-header-container{height:70px;position:relative;}
 
@@ -196,7 +170,7 @@ Last change: 27/07/2016
 
 	/* -- header -- */
 
-	#site-logo{width:120px;height:20px;}
+	#site-logo{width:120px;height:80px;}
 
 
 	/* -- page header -- */
@@ -302,6 +276,9 @@ Last change: 27/07/2016
 
 	#featured-slideshow-outer:hover .slideshow-btn{opacity:0;}
 
+#texto-derecha {
+	display:none;
+}
 
 	/* -- blog posts page -- */
 
