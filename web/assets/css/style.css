@@ -39,9 +39,6 @@
 	.magenta {
 		background:#ed1343;
 	}
-	.white-text {
-		color:white;
-	}
 
 
 /* --- 2) HEADER --- */
@@ -141,7 +138,7 @@
 	.page-content h5{font-size:11px;line-height:16px;}
 	.page-content h6{font-size:9px;line-height:14px;}
 	.page-content h1 + p,.page-content h2 + p,.page-content h3 + p,.page-content h4 + p,.page-content h5 + p,.page-content h6 + p{margin-top:5px;}
-	.page-content p{font-size:13px;color:#111111;line-height:22px;margin-bottom:20px;font-family:'Open Sans', sans-serif;font-weight:400;}
+	.page-content p{font-size:13px;;line-height:22px;margin-bottom:20px;font-family:'Open Sans', sans-serif;font-weight:400;}
 	.page-content blockquote{border-left:2px solid;border-color:#111111;padding-left:20px;margin-left:0;}
 	.page-content a{color:#111111;text-decoration:underline;}
 	.page-content strong{font-weight:700;}
@@ -506,7 +503,7 @@
 
 	.single-blog-main #post-slideshow-outer{margin-bottom:30px;}
 
-	.blog-post-content{padding-bottom:15px;border-bottom:1px solid #eeeeee;-ms-word-wrap:break-word;word-wrap:break-word;}
+	.blog-post-content{padding-bottom:15px;border-bottom:0px;-ms-word-wrap:break-word;word-wrap:break-word;}
 
 	.single-image{margin-bottom:30px;}
 
@@ -688,4 +685,9 @@
 		-ms-transform: scale(1);
 		transform: scale(1);
 		opacity: 1;
+	}
+
+
+	.white-text {
+		color:white;
 	}
