@@ -535,7 +535,9 @@
 	.input-textarea{width:100%;max-width:100%;min-height:250px;padding:15px;vertical-align:top;margin-bottom:20px;border:1px solid #eeeeee;}
 	.input-field,.input-textarea{font-size:13px;line-height:17px;-webkit-transition: border-color ease-in-out 0.25s;transition: border-color ease-in-out 0.25s;font-family:'Saira Condensed', sans-serif;font-weight:400;}
 	.input-field:focus,.input-textarea:focus,.input-field:hover,.input-textarea:hover{border-color:#888888;}
-
+.map-section {
+	padding-bottom:50px;
+}
 
 
 /* --- 12) FEATURES PAGE --- */
