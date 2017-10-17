@@ -93,7 +93,7 @@
 
 	#footer-right{float:right;}
 
-	#footer-copyright{float:right;font-size:13px;color:#fff;margin-top:4px;}
+	#footer-copyright{float:right;font-size:13px;color:#fff;margin-top:30px;}
 
 	#scroll-top{width:40px;height:40px;background-color:#ed1343;opacity:0.9;position:fixed;bottom:30px;right:30px;text-align:center;display:none;cursor:pointer;border-radius:1px;}
 	#scroll-top span{font-size:20px;color:#ffffff;line-height:10px;margin-top:14px;}
