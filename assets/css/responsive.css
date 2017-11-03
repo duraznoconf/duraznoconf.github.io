@@ -279,6 +279,9 @@
 #texto-derecha {
 	display:none;
 }
+.hide {
+	display:none;
+}
 
 	/* -- blog posts page -- */
 
