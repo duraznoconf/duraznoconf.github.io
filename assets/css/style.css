@@ -45,6 +45,11 @@
 		padding-bottom:100px;
 	}
 
+	.gray {
+	background:#e6e7e9;
+	padding-top:100px;
+	padding-bottom:100px;
+	}
 
 /* --- 2) HEADER --- */
 
@@ -119,7 +124,7 @@
 	.wide-header .container{width:100%;padding:0;}
 
 	.page-header .section-inner{min-height:250px;position:relative;padding:30px 0;text-align:center;color:#ffffff;background-position: center center;background-size: cover;background-color:#eeeeee;}
-    .page-head-inside{position:absolute;top:50%;left:0;right:0;margin-left:auto;margin-right:auto;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);}
+  .page-head-inside{position:absolute;top:50%;left:0;right:0;margin-left:auto;margin-right:auto;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);}
 	.page-head-inside h1{font-size:33px;color:#111111;line-height:37px;letter-spacing:2px;text-transform:uppercase;margin-bottom:15px;}
 	.page-head-inside p{font-size:15px;color:#111111;line-height:15px;letter-spacing:0.5px;}
 
@@ -709,4 +714,85 @@
 #speakers {
 	padding-top:100px;
 	padding-bottom:100px;
+}
+
+
+
+.timeline {
+  border-left: 0.25em solid #ed1343;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 2em auto;
+  line-height: 1.4em;
+  padding: 1em;
+  padding-left: 3em;
+  list-style: none;
+  text-align: left;
+  margin-left: 10em;
+  margin-right: 3em;
+  border-radius: 0.5em;
+  min-width: 22em;
+}
+
+.event {
+  min-width: 20em;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 1em;
+}
+
+.timeline .event:before {
+  left: -15em;
+  color: rgba(0, 0, 0, 0.8);
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 9em;
+}
+
+.timeline .event:after {
+  box-shadow: 0 0 0 0.2em #ed1343;
+  left: -3.5em;
+  background: #182638;
+  border-radius: 50%;
+  height: 0.75em;
+  width: 0.75em;
+  content: "";
+}
+
+.timeline .event .member-location,
+.timeline .event .member-parameters {
+  display: none;
+}
+
+.timeline .event:last-of-type .member-location,
+.timeline .event:last-of-type .member-parameters {
+  display: block;
+}
+
+.member-infos {
+  padding: 10px;
+  text-align: left;
+  position: relative;
+}
+
+.member-infos > h3 {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.member-location a:before {
+  margin-right: 5px;
+}
+
+.member-location {
+  text-indent: 2px;
 }
