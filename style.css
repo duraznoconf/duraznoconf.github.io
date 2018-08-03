@@ -1,0 +1,18 @@
+
+body { 
+  background: #0c283e;
+}
+.wrapper {
+    width: 90%;
+    height: 100%;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
