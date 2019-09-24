@@ -217,7 +217,7 @@ ul li, ol li {
 
 .btn-common {
   background-color: #cbdb2a;
-  color: #0c283e; 
+  color: #0c283e;
   position: relative;
   z-index: 1;
 }
@@ -987,6 +987,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 .white-text{
   color:#ffffff;
+}
+
+/*apoyan*/
+#apoyan {
+  background: #0c283e;
 }
 /* Schedule Area */
 #agenda {
